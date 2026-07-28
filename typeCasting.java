@@ -1,5 +1,5 @@
 class typeCasting{
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         /* Widening(Automatic Conversion): 
         Happens when smaller data types are converted into a larger data type. 
         Safe conversion because no data lost.
