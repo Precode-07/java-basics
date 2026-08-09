@@ -1,9 +1,9 @@
 class typeCasting{
     public static void main(String args[]) {
         /* Widening(Automatic Conversion): 
-        Happens when smaller data types are converted into a larger data type. 
-        Safe conversion because no data lost.
-        Performed automatically by the compiler.
+        -Happens when smaller data types are converted into a larger data type. 
+        -Safe conversion because no data lost.
+        -Performed automatically by the compiler.
          */
 
         byte b = 127;
@@ -22,9 +22,9 @@ class typeCasting{
         System.out.println("-------------------------------------");
 
         /* Narrowing(Explicit Conversion):
-        -> Happens when larger data type is converted into a smaller data types.
-        -> Not Safe because precision or data may lost.
-        -> Require explicit cast operator.
+        -Happens when larger data type is converted into a smaller data types.
+        -Not Safe because precision or data may lost.
+        -Require explicit cast operator.
         */
 
         double D = 123.456;
