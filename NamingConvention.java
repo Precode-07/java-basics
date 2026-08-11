@@ -14,6 +14,9 @@ class Calculate {
     }
 }
 
+/*
+Naming Convention: are standardized rules that make code more readable, maintainable, and professional.  */
+
 public class NamingConvention {
     public static void main(String[] args) {
         Calculate calc = new Calculate();
