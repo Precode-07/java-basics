@@ -3,6 +3,9 @@
 // This is Called Multilevel Inheritance.
 // Multilevel inheritance in Java means that a class is derived from another class,
 //  which itself is derived from yet another class — forming a chain of inheritance.
+
+import tools.*;
+
 class ModernCalc extends AdvCalc{
     public int mul(int a,int b){
         return a*b;
