@@ -2,6 +2,7 @@ public class EnhancedThreads
 {
     public static void main(String[] args) 
     {
+        //Runnable is a functional interface, we can use lambda expressions
         Runnable obj1 = () ->
         {
         for (int i = 0; i <= 5; i++) 
