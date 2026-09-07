@@ -5,32 +5,37 @@ import java.util.TreeSet;
 
 public class SetCollection {
     public static void main(String[] args) {
+        // HashSet stores elements in an unordered way (no guaranteed order)
         Set<Integer> nums = new HashSet<>();
         nums.add(92);
         nums.add(21);
         nums.add(34);
         nums.add(73);
 
+        // Iterating using enhanced for-loop
         for (int n : nums) {
             System.out.println(n);            
         }
 
         System.out.println("--------------------------------------------------------");
 
+        // TreeSet stores elements in sorted (ascending) order
         Set<Integer> num1 = new TreeSet<>();
         num1.add(92);
         num1.add(21);
         num1.add(34);
         num1.add(73);
 
+        // Iterating using Iterator
         Iterator<Integer> values = num1.iterator();
-
         while (values.hasNext()) {
-            int n1 =  values.next();
+            int n1 = values.next();
             System.out.println(n1);
         }
 
         System.out.println("--------------------------------------------------------");
+
+        // Iterating TreeSet again using enhanced for-loop
         for (int n : num1) {
             System.out.println(n);            
         }
