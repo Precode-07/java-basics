@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Arrays {
     public static void main(String[] args) {
         /* Arrays - In Java Arrays is a fixed-sized, homogenous data structure
@@ -15,5 +17,10 @@ public class Arrays {
             System.out.println();
         }
 
+    }
+
+    public static List<Integer> asList(int i, int j, int k, int l, int m, int n, int o, int p) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'asList'");
     }
 }
